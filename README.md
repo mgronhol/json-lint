@@ -6,10 +6,15 @@ JSON lint written in Python
 Usage
 =========
 
-    json-lint.py json-file.json
+    json-lint json-file.json
 
 or
 
-    curl "http://search.twitter.com/search.json?q=github" | json-lint.py
+    curl "http://search.twitter.com/search.json?q=github" | json-lint
+
+Installation
+=========
+
+Symlink etc to a folder in your path (wihtout the extension) and chmod it executable.
 
 
